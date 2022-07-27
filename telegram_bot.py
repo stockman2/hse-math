@@ -1,3 +1,6 @@
+$ heroku create myapp --buildpack heroku/python
+
+
 from aiogram import Bot, Dispatcher, types, executor
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
